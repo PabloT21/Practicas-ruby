@@ -1,0 +1,21 @@
+//El extends agrega métodos a NIVEL DE CLASE
+//el include solo de instancia
+/*
+module ReusableModule
+  def module_method
+    puts "Module Method: Hi there!"
+  end
+end
+
+class ClassThatIncludes
+  include ReusableModule
+end
+class ClassThatExtends
+  extend ReusableModule
+end
+
+puts "Include"
+ClassThatIncludes.new.module_method      CON INCLUDES TENGO QUE INSTANCIAS
+puts "Extend"
+ClassThatExtends.module_method           CON EXTENDS PUEDO USAR LA CLASE DIRECTAMENTE
+*/
